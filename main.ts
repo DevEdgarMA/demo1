@@ -1,9 +1,9 @@
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    let mySprite: Sprite = null
-    mySprite.x = 0
+    hero.x = 0
 })
+let hero: Sprite = null
 scene.setBackgroundColor(9)
-let hero = sprites.create(img`
+hero = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     . . . . . f f f f f . . . . . . 
