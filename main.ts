@@ -1,6 +1,9 @@
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     hero.x = 0
 })
+function algo () {
+    music.baDing.play()
+}
 let hero: Sprite = null
 scene.setBackgroundColor(9)
 hero = sprites.create(img`
