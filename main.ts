@@ -18,3 +18,4 @@ let hero = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
 controller.moveSprite(hero)
+scene.cameraFollowSprite(hero)
